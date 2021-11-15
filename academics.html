@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Academics - R University Plans</title>
+    <meta name="description" content="R University offers you the best academics plans for your education.">
+    <link rel="stylesheet" href="week06.css" />
+        
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="logowrap">
+                <a href="assign06.html">
+                    <img src="r.png" 
+                         alt="University Logo" 
+                         width="500" height="120" class="logo"></a>
+            </header>
+            <nav class="flex-nav">
+                <ul>
+                    <li><a href="./university.html">University</a></li>
+                    <li><a href="academics.html">Academics</a></li>
+                    <li><a href="./athletics.html">Athletics</a></li>
+                    <li><a href="./arts.html">Arts</a></li>               
+                </ul> 
+            </nav>
+
+
+
+    
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Open</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Scholarships</a>
+                <a href="#">Contact</a>
+              </div>    
+              
+              <ul class="listing">
+                <li>
+                  <h2>Architecture &​ Design</h2>
+                  <div class="body"><p>The School of Architecture and Design's administrative offices are in Marvin Hall at the west end of Jayhawk Boulevard on the Lawrence campus. The School also has space in several adjacent buildings and additional off-campus facilities in Lawrence and Kansas City.</p></div>
+                  <div class="cta"><a href="https://catalog.ku.edu/architecture/">Click to look for more info</a></div>
+                </li>
+                 <li>
+                   <h2>Business</h2>
+                   <div class="body"><p>Graduation requirements and regulations for every academic program are provided in this catalog. Degree requirements and course descriptions are subject to change. In most cases, you will use the catalog of the year you entered KU (see your advisor for details).</p></div>
+                   <div class="cta"><a href="https://catalog.ku.edu/business/">Click to look for more info</a></div>
+                 </li>
+                 <li class="wide">
+                   <h2>Bachelor of Science in Business</h2>
+                   <div class="body"><p>Since its founding in 1924, the School of Business at the University of Kansas has been committed to shaping tomorrow’s business leaders. The business school holds the gold standard of accreditation in business education, the Association to Advance Collegiate Schools of Business, for both the school and its accounting programs. With its focus on teaching and research, the KU School of Business bridges theory and practice to know where business is going. </p>
+                   </div>
+                   <div class="cta"><a href="https://catalog.ku.edu/business/bs/">Click to look for more info</a></div>
+                  </li>
+                  <li>
+                   <h2>Master of Accounting</h2>
+                   <div class="body"><p>Earning a Master of Accounting (MAcc) degree not only expands a student's education and job options, it amplifies earning potential and career advancement. On average, over 90 percent of graduates secure a job by graduation. From coast to coast, in every major metropolitan area of the country, even the world, KU MAcc graduates find success.</p></div>
+                   <div class="cta"><a href="https://catalog.ku.edu/business/master-accounting/">Click to look for more info</a></div>
+                  </li>
+                   <li>
+                   <h2>School of Engineering</h2>
+                   <div class="body"><p>From communication systems to bridges, from satellites to manufacturing - society depend on engineers. A KU engineering education helps students understand technical principles and the background behind them and prepares them for the changes ahead. Most graduates assume responsible positions in business, industry, education, or government, and our engineering programs also provide an excellent background for other careers. Many graduates are CEOs of major companies or enter fields like medicine or law.</p></div>
+                    <div class="cta"><a href="https://catalog.ku.edu/engineering/">Click to look for more info</a></div>
+                  </li>
+              </ul>
+
+              <img src="academics2.jpg" alt="academics" style="width:100%">
+
+
+
+              <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+            
+              <script>
+              //Get the button
+              var mybutton = document.getElementById("myBtn");
+              
+              // When the user scrolls down 20px from the top of the document, show the button
+              window.onscroll = function() {scrollFunction()};
+              
+              function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                  mybutton.style.display = "block";
+                } else {
+                  mybutton.style.display = "none";
+                }
+              }
+              
+              // When the user clicks on the button, scroll to the top of the document
+              function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+              }
+              </script>
+
+            <footer> 
+                &copy; 2021 | Rosmar Enriquez | CS 213 Web Engineering
+            </footer>
+        </div> 
+    </body>
+</html>

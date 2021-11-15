@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get to know the University you are looking for - R University</title>
+    <meta name="description" content="Here you are going to find who we are and why we are the best option.">
+    <link rel="stylesheet" href="week06.css" />
+        
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="logowrap">
+                <a href="assign06.html">
+                    <img src="r.png" 
+                         alt="University Logo" 
+                         width="500" height="120" class="logo"></a>
+            </header>
+            <nav class="flex-nav">
+                <ul>
+                    <li><a href="university.html">University</a></li>
+                    <li><a href="./academics.html">Academics</a></li>
+                    <li><a href="./athletics.html">Athletics</a></li>
+                    <li><a href="./arts.html">Arts</a></li>               
+                </ul> 
+            </nav>
+
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Open</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Scholarships</a>
+                <a href="#">Contact</a>
+              </div>    
+              <section id="main">
+              <div id="unicontent">
+                  <div class="info1" style="padding:0em 1em 0em 0em">
+               <h3>We are a major research university with global reach.</h3>
+               <p>
+                The University of R University is the state’s flagship university and one of just 66 invited members of the prestigious
+                Association of American Universities (AAU). We consistently earn high rankings for academics and recognition as a 
+                premier research university.
+                We push the boundaries of knowledge, transform the academic experience, and create solutions through innovative research.
+                The R's community extends around the globe, united by more than 150 years of tradition and by our commitment to creating
+                a better world.
+               </p>
+               <details>
+                <summary>Fellowships and grants</summary>
+                <p>
+                    You may be eligible for funding through merit-based, discipline-specific fellowships. 
+                    Each of these awards has its own application process and requirements, which you would complete in addition 
+                    to your departmental application for graduate study:
+                <ul>
+                   <li>Hall Center for the Humanities fellowships</li>
+                   <li>Dwight Eisenhower/Clifford Roberts Graduate Fellowship</li>
+                   <li>The Madison & Lila Self Graduate Fellowship</li>
+                   <li>University Graduate Fellowship</li>
+                   <li>Bernadette Gray-Little Fellowship</li>
+                   <li>Chancellor's Doctoral Fellowship</li>
+                   <li>Self Memorial Scholarship</li>
+               </ul>
+              </details>
+              <details>
+                <summary>Assistantships</summary>
+                <p>
+                    Graduate Teaching Assistants (GTAs), Graduate Research Assistants (GRAs), and Graduate Assistants (GAs) 
+                    receive tuition, wages, and/or funding in exchange for teaching or administrative support. Students should 
+                    reach out to graduate programs about departmental assistantships and their benefits, or scan the Jobs at KU 
+                    listings for outside opportunities.
+                </p>
+              </details>
+              <details>
+              <summary>Research funding</summary>
+                <p>
+                    Students may apply for funding to support or advance their research, such as the Doctoral Student Research Fund 
+                    and the Graduate Scholarly Presentation Travel Fund. 
+                </p>
+              </details>
+              <details>
+              <summary>Federal aid</summary>
+              <p>
+                KU’s Office of Financial Aid and Scholarships connects graduate students with federal aid. To take advantage of these opportunities, 
+                domestic students must file the Free Application for Federal Student Aid (FAFSA); international students must file the Institutional 
+                Student Need Analysis Worksheet (ISNAW). Contact a KU Financial Aid counselor for more information. 
+              </p>
+            </details>
+            <details>
+            <summary>For military-affiliated students</summary>
+            <p>
+                Veteran, active duty, and family members of military-affiliated students may be eligible for KU and external funding opportunities.  
+            </p>
+          </details>
+          <details>
+          <summary>For underrepresented minority students</summary>
+            <p>
+                Graduate students of color or those who identify with underrepresented identities have a number of funding opportunities available to them. These include:
+              <ul>
+                <li>First-Year URM Fellowship</li>
+                <li>Summer Research Scholarship</li>
+                <li>External funding</li>
+              </ul>
+              Additionally, many departments offer funding opportunities unique to their graduate programs or disciplines. Reach out to your department for more information.
+          </details>
+          <img src="graduate.png" alt="Graduates" style="width:90%">
+            </div>
+              <div class="info">
+                <img src="info.png" alt="University Info" style="width:90%">
+                <h3>Self Graduate Programs Commitment to Diversity, Equity, and Inclusion</h3>
+               <p>
+                As a department that supports graduate students at the University of Kansas, Self Graduate Programs is committed to recruiting, retaining, and equitably supporting 
+                the diverse needs and identities of all students. The interdisciplinary nature of the fellowship recognizes the inherent value that comes from having fellows across 
+                a variety of disciplines, intellectual viewpoints, values, cultural backgrounds, and life experiences. The Self Graduate Programs also recognizes that it plays a 
+                critical role in reducing the barriers that many students face when pursuing a doctoral degree, and will continue to work towards instilling leadership skills and 
+                professional development that support students well beyond their degree.
+                The Self Graduate Programs will continue to uphold the University of Kansas mission by providing opportunities for intellectual growth and professional development, 
+                regardless of a person’s social, cultural, and economic background. 
+               </p>
+               <h3>Self Graduate Fellowship</h3>
+               <p>
+                The Madison and Lila Self Graduate Fellowship at the University of Kansas is a community of doctoral student leaders who have been nominated and selected to receive 
+                four years of financial and professional development support. The Self Graduate Fellowship is a merit-based program made up of an interdisciplinary group of doctoral 
+                students that come from 21 different eligible academic fields.
+               </p>
+              </div>
+            </div>
+
+              <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+            
+            <script>
+            //Get the button
+            var mybutton = document.getElementById("myBtn");
+            
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+            </script>
+</section>
+            <footer> 
+                &copy; 2021 | Rosmar Enriquez | CS 213 Web Engineering
+            </footer>
+        </div> 
+    </body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Athletics - Best options ever - R University</title>
+    <meta name="description" content="R University shows you the best options of athletics.">
+    <link rel="stylesheet" href="week06.css" />
+        
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="logowrap">
+                <a href="assign06.html">
+                    <img src="r.png" 
+                         alt="University Logo" 
+                         width="500" height="120" class="logo"></a>
+            </header>
+            <nav class="flex-nav">
+                <ul>
+                    <li><a href="./university.html">University</a></li>
+                    <li><a href="./academics.html">Academics</a></li>
+                    <li><a href="athletics.html">Athletics</a></li>
+                    <li><a href="./arts.html">Arts</a></li>               
+                </ul> 
+            </nav>
+
+
+
+        
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Open</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Scholarships</a>
+                <a href="#">Contact</a>
+              </div>    
+
+              <div id="main-athletics">
+                <section>
+                   <h2>Baseball</h2>
+                   <p>Baseball University is a premier travel baseball and showcase organization that takes a professional training approach to high school prospects.</p>
+                   <a href="#" class="info-link">Learn more...</a>
+                 </section>
+                 <section>
+                   <h2>Athletics</h2>
+                   <p>The Commitment to an Athlete’s Total Success (C.A.T.S) by working together to provide opportunities for student-athletes to become academic, athletic and life champions.</p>
+                   <img class="section-img" src="athletics1.jpg" alt="Athletics">
+                   <a href="#" class="info-link">Learn more...</a>
+                 </section>
+                 <section>
+                   <h2>Football</h2>
+                   <img class="section-img sports" src="athletics2.jpg" alt="Best Athletics"/>
+                   <p>Our philosophy hasn’t changed since day one: help you become a better football player. We’re not selling exposure, we’re not seeing who’s the fastest in a sprint in a straight line. We are about developing you into a great football player.</p>
+                   <a href="#" class="info-link">Learn more...</a>
+                 </section>
+                 <section class="bigbottom">
+                   <h2>Basketball</h2>
+                   <p>Basketball season is just around the corner, and the University of R University women's team is primed and ready for the 25-game slate for the 2021-22 Division III season.</p>
+                   <a class="bigbottom-link info-link" href="#">Learn more...</a>
+                 </section>
+                 <section class="bigtitle">
+                   <h2 class="bigtitle-title">Handball</h2>
+                   <p>The players’ objective is, by only using their hands, to throw the ball into the goal of the opposing team, thereby scoring a “goal”. </p>
+                   <a href="#" class="info-link">Learn more...</a>
+                 </section>
+                 <section>
+                   <h2>Volleybal</h2>
+                   <p>Here you'll have access to information regarding the University and details on their Women's Volleyball program like who to contact about recruiting, names of past alumni, what scholarship opportunities are presented and ways to start the recruiting process.</p>
+                   <a href="#" class="info-link">Learn more...</a>
+                 </section>
+                </div>
+
+
+
+              <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+            
+              <script>
+              //Get the button
+              var mybutton = document.getElementById("myBtn");
+              
+              // When the user scrolls down 20px from the top of the document, show the button
+              window.onscroll = function() {scrollFunction()};
+              
+              function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                  mybutton.style.display = "block";
+                } else {
+                  mybutton.style.display = "none";
+                }
+              }
+              
+              // When the user clicks on the button, scroll to the top of the document
+              function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+              }
+              </script>
+            
+
+
+            <footer> 
+                &copy; 2021 | Rosmar Enriquez | CS 213 Web Engineering
+            </footer>
+        </div> 
+    </body>
+</html>
